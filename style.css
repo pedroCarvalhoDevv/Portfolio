@@ -10,13 +10,15 @@ body{
 }
 .conteiner-main{
     display: flex;
-    width: 1280px;
-    height: 800px;
+    width: 80%;
+    height: 80%;
+    transform: translate();
     padding: 131px 215px;
     justify-content: center;
     align-items: center;
     flex: 1 0 0;
     align-self: stretch;
+    
  
 }
 .imagem{
@@ -25,9 +27,9 @@ body{
     align-self: stretch; */
 }
 .child{
-    top: 100px;
+    margin-top: -3px;
     width: 450px;
-    height: 535px;
+    height: 538px;
     background-color: white;
     flex-direction: column;
 
@@ -36,23 +38,35 @@ body{
 .logo-container{
     display: flex;
     padding: 56px 0px 32px 0px;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     gap: 10px;
     align-self: stretch;
 }
+h1{
+    color: #3A25A7;
+    font-family: Poppins ;
+    
+}
 .conteiner-forms{
+    margin-top: -20px;
     display: flex;
     padding: 0px 56px;
     flex-direction:column;
     align-items: flex-start;
     gap: 16px;
     align-self: stretch;
+
     /* position: absolute; */
 }
 p{
-    padding: 12px;
+    font-size: small;
+    font-family: Poppins ;
+    height: -1000px;
+}
+input{
+    padding: 10px;
 }
 
 
