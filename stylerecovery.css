@@ -45,13 +45,33 @@ body{
     gap: 10px;
     align-self: stretch;
 }
+.texto{
+    margin-top:-35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.manual{
+    margin-top: -5px;
+}
+h2{
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    
+    
+
+}
 h1{
     color: #3A25A7;
     font-family: Poppins ;
     
 }
 .conteiner-forms{
-    margin-top: -20px;
+    margin-top: -5px;
     display: flex;
     padding: 0px 56px;
     flex-direction:column;
@@ -79,7 +99,7 @@ input{
 
 .password-container{
     display: flex;
-    padding: 0px 212px;
+    padding: 0px 250px;
     font-family: Poppins ;
     color: #0A9960;
     flex-direction: end;
@@ -90,13 +110,15 @@ input{
 }
 .ancora{
     white-space: nowrap
-    
 
 }
 
+
+
 .buttons-container{
+
     display: flex;
-    padding: 32px 56px 56px 56px;
+    padding: 30px 56px 56px 56px;
     flex-direction: column;
     /* align-items: center */
     gap: -10px;
@@ -106,7 +128,7 @@ input{
 }
 
 
-/* .entrar{
+.entrar{
     height: 48px;
     align-items: center;
     background-color: #3A25A7;
@@ -114,26 +136,13 @@ input{
     color: white;
     border-radius: 5px;
     margin-bottom: 16px;
-} */
-.entrar2{
-    height: 48px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;      
-    background-color: #3A25A7;
-    font-family: Poppins ;
-    color: white;
-    border-radius: 5px;
-    margin-bottom: 16px;
-    text-decoration: none;
-    
 }
 .entrar:hover{
     background-color: #25137e;
 }
 
 .botao-seCadastrar{
-    color: #3A25A7;
+    color: #ff0000;
     background-color: white;
     border: 0;
     font-family: Poppins ;
@@ -144,6 +153,14 @@ input{
 .botao-seCadastrar:hover{
 
     background-color: #b3c4e7;
+}
+.cancelar{
+    
+    color: #ff0000;
+    font-family: Poppins ;
+    text-align: center;
+    border-radius: 5px;
+
 }
 /* button{
     

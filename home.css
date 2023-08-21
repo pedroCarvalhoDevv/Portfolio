@@ -1,0 +1,50 @@
+body{
+    
+}
+.menu{
+    
+    font-family: Poppins;
+    background-color: #7761E5;
+    display: flex;
+    width: 20%;
+    height: 420px;
+    gap: 7px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 5px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+.item-menu{
+    
+    display: flex;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+
+}   
+.item-menu:hover{
+    background-color: #aea2ee;
+}
+
+.logo{
+    display: flex;   
+    width: 20px;
+    height: 20px;
+}
+.texto-menu{
+    font-size: 12px;
+    
+}
+.teste{
+    display: flex;
+    float: left;
+    font-size: 0;
+}
