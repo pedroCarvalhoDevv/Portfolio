@@ -1,5 +1,5 @@
 body{
-    background-color: #EDEFF2;
+    background-color: gray;
     /* display: flex;
     width: 1280px;
     height: 800px;
@@ -10,8 +10,8 @@ body{
 }
 .conteiner-main{
     display: flex;
-    width: 80%;
-    height: 80%;
+    width: 100vw;
+    height: 100vh;
     transform: translate();
     padding: 131px 215px;
     justify-content: center;
@@ -23,12 +23,13 @@ body{
  
 }
 .imagem{
-    
-    /* flex: 1 0 0;
-    align-self: stretch; */
+  
+
+
 }
 .child{
-    margin-top: -3px;
+    margin-left: -10px;
+    margin-top: 0px;
     width: 450px;
     height: 538px;
     background-color: white;
@@ -76,7 +77,12 @@ input{
     outline: 0;
 }
 
+.ancora{
+    color: #0A9960;
+    text-decoration: none;
+    white-space: nowrap
 
+}
 .password-container{
     display: flex;
     padding: 0px 212px;
@@ -88,18 +94,16 @@ input{
     align-self: stretch;
     
 }
-.ancora{
-    white-space: nowrap
-    
 
-}
+
+
 
 .buttons-container{
     display: flex;
+    margin-top: -10px;
     padding: 32px 56px 56px 56px;
     flex-direction: column;
     /* align-items: center */
-    gap: -10px;
     align-self: stretch;
     
 
@@ -145,13 +149,32 @@ input{
 
     background-color: #b3c4e7;
 }
-/* button{
-    
-    display: flex;
-    height: 48px;
-    background-color: #3A25A7;
+.alert-green{
     font-family: Poppins ;
-    color: white;
-    border-radius: 5px;
-    text-align: end;
-} */
+    margin-top: 30px;
+    margin-left: 20%;
+    display: flex;
+    align-self: stretch;
+    color: #1A6144;
+    background-color: rgb(132, 242, 132);
+    border-radius: 15px;
+    padding: 10px;
+    gap: 16px;
+    width: 60%;
+    
+
+}
+.alert-red{
+font-family: Poppins ;
+    margin-top: 30px;
+    margin-left: 20%;
+    display: flex;
+    align-self: stretch;
+    color: #730712 ;
+    background-color: rgb(231, 166, 166);
+    border-radius: 15px;
+    padding: 10px;
+    gap: 16px;
+    width: 60%;
+
+}
